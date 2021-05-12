@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="491" height="295" viewBox="0 0 491 295">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g stroke="#383E69">
+                        <path d="M0 0.5L491 0.5" transform="translate(-719 -150) translate(719 150) translate(0 45) translate(0 204)"/>
+                    </g>
+                    <path fill="#3A5EDD" d="M10 167h57c5.523 0 10 4.477 10 10v27H0v-27c0-5.523 4.477-10 10-10z" transform="translate(-719 -150) translate(719 150) translate(0 45)"/>
+                    <path fill="#30ABD6" d="M114 87h57c5.523 0 10 4.477 10 10v107h-77V97c0-5.523 4.477-10 10-10z" transform="translate(-719 -150) translate(719 150) translate(0 45)"/>
+                    <path fill="#3A5EDD" d="M217 0h57c5.523 0 10 4.477 10 10v194h-77V10c0-5.523 4.477-10 10-10z" transform="translate(-719 -150) translate(719 150) translate(0 45)"/>
+                    <path fill="#30ABD6" d="M321 87h57c5.523 0 10 4.477 10 10v107h-77V97c0-5.523 4.477-10 10-10z" transform="translate(-719 -150) translate(719 150) translate(0 45)"/>
+                    <path fill="#3A5EDD" d="M424 167h57c5.523 0 10 4.477 10 10v27h-77v-27c0-5.523 4.477-10 10-10z" transform="translate(-719 -150) translate(719 150) translate(0 45)"/>
+                </g>
+                <g>
+                    <text fill="#383E69" font-family="Nunito-Regular, Nunito" font-size="16" transform="translate(-719 -150) translate(719 150) translate(7)">
+                        <tspan x="428" y="285">MAX</tspan>
+                    </text>
+                    <text fill="#383E69" font-family="Nunito-Regular, Nunito" font-size="16" transform="translate(-719 -150) translate(719 150) translate(7)">
+                        <tspan x="200" y="285">AVERAGE</tspan>
+                    </text>
+                    <text fill="#383E69" font-family="Nunito-Regular, Nunito" font-size="16" transform="translate(-719 -150) translate(719 150) translate(7)">
+                        <tspan x="10" y="285">MIN</tspan>
+                    </text>
+                    <text fill="#1F2343" font-family="Nunito-Bold, Nunito" font-size="20" font-weight="bold" transform="translate(-719 -150) translate(719 150) translate(7)">
+                        <tspan x="412.18" y="187">₹ 420K</tspan>
+                    </text>
+                    <text fill="#1F2343" font-family="Nunito-Bold, Nunito" font-size="20" font-weight="bold" transform="translate(-719 -150) translate(719 150) translate(7)">
+                        <tspan x="193.19" y="20">₹ 1364K</tspan>
+                    </text>
+                    <text fill="#1F2343" font-family="Nunito-Bold, Nunito" font-size="20" font-weight="bold" transform="translate(-719 -150) translate(719 150) translate(7)">
+                        <tspan x="-1.81" y="187">₹ 509K</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
