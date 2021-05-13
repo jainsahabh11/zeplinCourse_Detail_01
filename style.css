@@ -86,7 +86,7 @@ ul{
   line-height: 2.6rem;
   letter-spacing: normal;
   color: var(--white);
-  margin-left: 7rem;
+ 
 }
 .Machine-Learning {
   font-family: 'Nunito';
@@ -97,7 +97,7 @@ ul{
   line-height: 7rem;
   letter-spacing: normal;
   color: var(--white);
-  margin: 2rem 0 1rem 7rem;
+  margin: 2rem 0 1rem 0;
 }
 .Become-a-machine-lea {
   font-family: 'Nunito';
@@ -108,7 +108,7 @@ ul{
   line-height: 1.42;
   letter-spacing: normal;
   color: var(--white);
-  margin: 0 0 1.5rem 7rem;
+  margin: 0 0 1.5rem 0;
 }
 .star{
   font-family: 'Nunito';
@@ -119,7 +119,7 @@ ul{
   line-height: 1.63;
   letter-spacing: normal;
   color: var(--white);
-  margin-left: 7rem;
+
 }
 ._stars{
   padding-left: 2rem;
@@ -129,7 +129,6 @@ ul{
 .rec{
   width: 163px;
   height: 36px;
-  margin-left: 70px;
   margin-top: 20px;
   border: 1px solid white;
   border-radius: 2px;
@@ -164,31 +163,59 @@ margin: 130px 0 0 0;
   border-radius: 10px;
   width: 226px;
   height: 203px;
+  float: left;
 }
 .card-imgs{
   width: 75px;
   height: 75px;
   margin: 20px 0 0 20px;
 }
-.card-title{
-  margin: 15px 10px;
+.f{
+  display: flex!important;
+  flex-direction: column!important;
 }
+/* .card-title{
+  margin: 15px 10px;
+} */
 .tabs{
-  margin: 80px 0 70px 70px;
-
- 
+  margin: 80px 0 70px 0px;
 }
 .details{
   font-family: 'Nunito';
   font-weight: bold;
-  font-size: 20px;
+  font-size: 2rem;
   text-align: center;
-  line-height: 30px;
+  line-height: 3rem;
   letter-spacing: normal;
   color: #3a5edd;
+
 }
-.overview{
-margin-left: 7rem;
+.remaintext{
+  font-family: 'Nunito';
+  font-weight: normal;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 3rem;
+  letter-spacing: normal;
+  color: #383e69;
+}
+.rectblue{
+  height: 32px;
+  border: 1px solid white;
+  background-color: #f0f5f9;
+  margin: 0 20px 60px 0;
+ 
+}
+
+.rectbluetext{
+  font-family: 'Nunito';
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  letter-spacing: normal;
+
+  text-align: center;
+
 }
 .cloud{
   font-family: 'Nunito';
@@ -200,9 +227,10 @@ margin-left: 7rem;
 }
 .skills{
   margin-left: 70px;
+  margin-top: 100px;
   background-color: #30abd6;
   width: 90%;
-  height: 242px;
+  height: auto;
   border: 1px solid white;
   border-radius: 10px;
 }
@@ -216,6 +244,23 @@ margin-left: 7rem;
   line-height: 5rem;
   color: #ffffff;
 }
+.skillbox{
+  width: 228px;
+  height: 31px;
+  border: 1px solid white;
+  margin:0 20px 29px 0;
+}
+.Tags {
+  font-family: 'Nunito';
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.4rem;
+  letter-spacing: normal;
+  color: var(--white);
+  text-align: center;
+}
 .tools{
   font-family: 'Nunito';
   font-weight: bold;
@@ -223,11 +268,18 @@ margin-left: 7rem;
   line-height: 5rem;
   letter-spacing: normal;
   color: #1f2343;
+  margin-bottom: 60px;
 }
-.card1{
+.cards1{
+ 
   width: 208px;
   height: 140px;
 }
+.caimg{
+  width: 200px;
+  height: 130px;
+}
+
 .benefits{
   margin-top: 100px;
   background-color: #f0f5f9;
@@ -239,7 +291,7 @@ margin-left: 7rem;
   line-height: 2.6rem;
   letter-spacing: normal;
   color: #383e69;
-  margin: 0 0 20px 70px;
+  margin: 0 0 20px 0;
 }
 .des{
   font-family: 'Nunito';
