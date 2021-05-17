@@ -17,14 +17,19 @@
 html{
   font-size: 62.5%;
 }
-a{
+/* a{
   text-decoration: none;
-}
-ul{
+} */
+/* ul{
   list-style: none;
+} */
+li::marker{
+  color: #30abd6;
+ font-size: 16px;
 }
 .Course_Detail_01 {
   padding: 0;
+  font-family: 'Nunito';
   background-color: var(--white);
   width: 100%;
   height: auto;
@@ -54,11 +59,25 @@ ul{
   color: var(--white);
   margin-right: 4rem;
 }
+.und .active{
+  font-weight: bold;
+  text-decoration: underline;
+}
 .Color {
   width: 11rem;
   height: 3.6rem;
   border-radius: 0.6rem;
   background-color: var(--azure);
+}
+.color{
+  width: 20rem;
+  height: 3.6rem;
+  border-radius: 0.6rem;
+  background-color: var(--azure);
+}
+.colcolor{
+  border-radius: 0.6rem;
+  background-color: #f0f5f9;
 }
 .button-text {
  font-weight: bold;
@@ -112,9 +131,9 @@ ul{
   width: 163px;
   height: 36px;
   margin:2rem 0 0 7rem;
-  border: 1px solid white;
+  border: 1px  white;
   border-radius: 2px;
-  opacity: 10%;
+  /* opacity: 10%; */
 }
 .users{
   font-family: 'Nunito';
@@ -135,9 +154,20 @@ font-weight: bold;
   width: 235px;
   height: 235px;
 }
+.banner-video:hover{
+  transform: scale(1.5);
+}
 .carsous{
-  margin-top: 450px;
+  margin-top: 460px;
   
+}
+.btnrhs{
+  width: 0%;
+  left: 140px;
+}
+.btnlhs{
+  width: 0%;
+  left: 70px;
 }
 .arrow-lhs{
   margin:130px 15px 0 0;
@@ -147,27 +177,42 @@ margin: 130px 0 0 0;
 }
 .card{
   border-radius: 10px;
-  width: 226px;
+  /* width: 226px; */
   height: 203px;
   float: left;
+}
+.cardtitle{
+  padding: 10px 0 0 10px;
+  font-family: 'Nunito';
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  letter-spacing: normal;
+  color: #1f2343;
 }
 .card-imgs{
   width: 75px;
   height: 75px;
-  margin: 20px 0 0 20px;
+
+  padding: 20px 0 10px 20px ;
 }
 
 .tabs{
   margin: 80px 0 70px 0px;
 }
+.nrmlpills{
+  color: #3a5edd ;
+  background-color: #ffffff;
+}
+
 .details{
   font-family: 'Nunito';
-  font-weight: bold;
+  
   font-size: 2rem;
   /* text-align: center; */
   line-height: 3rem;
   letter-spacing: normal;
-  color: #3a5edd;
+  color: #383e69;
   margin-right: 60px;
 }
 hr{
@@ -183,8 +228,55 @@ hr{
   color: #383e69;
   margin-right: 60px;
 }
-.nav-pills .nav-link {
-    background-color: #f0f5f9;
+.cloimg{
+  background-color: blue;
+}
+.nrmlpills .nav-item .active  {
+  background-color: #ffffff;
+  color: #0d6efd;
+  font-weight: bold; 
+}
+.accorques{
+  font-family: 'Nunito';
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: normal;
+  color: #1f2343;
+}
+.h2text{
+  font-family: 'Nunito';
+  font-size: 4rem;
+  line-height: 5rem;
+  letter-spacing: normal;
+  color: #1f2343;
+}
+.h3text{
+  font-family: 'Nunito';
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  letter-spacing: normal;
+  color: #1f2343;
+}
+.h4text{
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: normal;
+  color: #383e69;
+
+}
+.h5text{
+ 
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  letter-spacing: normal;
+  color: #383e69;
+}
+.roundedpill .nav-item .nav-link{
+  background-color: #f0f5f9;
+}
+.roundedpill .nav-item .active{
+  background-color: #0d6efd;
+  color: #ffffff;
 }
 .button1{
   width: 172px;
@@ -196,6 +288,7 @@ hr{
   letter-spacing: normal;
   text-align: center;
   margin-right: 60px;
+  color: #383e69;
 }
 .button2{
   width: 133px;
@@ -270,6 +363,20 @@ hr{
   color: #1f2343;
   margin-bottom: 60px;
 }
+.carprev{
+  width: 8%;
+}
+.data1{
+  width: 130px;
+  height: 26px;
+  background-color: white;
+}
+.data2{
+  width: 224px;
+  height: 26px;
+  background-color: white;
+
+}
 .cards1{
  
   width: 208px;
@@ -307,6 +414,13 @@ hr{
   margin: 100px 0 0 0;
 
 }
+.hiringrec{
+  width: 303px;
+  height: 33px;
+  border-radius: 2px;
+  background-color: #f0f5f9;
+  margin-top: 75px;
+}
 .brand{
   margin-top:30px
 }
@@ -316,7 +430,24 @@ hr{
   font-size: 2.4rem;
   line-height: 3.4rem;
 }
+.partnercarind{
+  top: 180px;
+  height: 50px;
+  text-align: center;
+  /* width: 6%; */
+}
+.prevs{
+  width: 0%;
+  top: 110px;
+  right: 0px;
+  left: 600px;
 
+}
+.nexts{
+  width: 0%;
+  top: 110px;
+left: 740px;
+}
 
 
 
