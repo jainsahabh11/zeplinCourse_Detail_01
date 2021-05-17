@@ -44,8 +44,8 @@ li::marker{
   padding-top: 2.5rem;
 }
 .alogoaicolour {
-  width: 20.7rem;
-  height: 3rem;
+  /* width: 20.7rem;
+  height: 3rem; */
   object-fit: contain;
 }
 .Home {
@@ -76,6 +76,7 @@ li::marker{
   background-color: var(--azure);
 }
 .colcolor{
+  padding: 4.6rem 0 0 5rem;
   border-radius: 0.6rem;
   background-color: #f0f5f9;
 }
@@ -86,10 +87,9 @@ li::marker{
 .bgmar{
   position: absolute;
   margin-top: 13.3rem;
+  padding: 0 7rem;
 }
-.SIX-MONTHS-ONLINE {
- margin: 0 0 0 7rem ;
-}
+
 .Machine-Learning {
   font-family: 'Nunito';
   font-size: 5.5rem;
@@ -99,7 +99,7 @@ li::marker{
   line-height: 7rem;
   letter-spacing: normal;
   color: var(--white);
-  margin: 2rem 0 1rem 7rem;
+  margin: 2rem 0 1rem 0;
 }
 .Become-a-machine-lea {
   font-family: 'Nunito';
@@ -110,7 +110,7 @@ li::marker{
   line-height: 1.42;
   letter-spacing: normal;
   color: var(--white);
-  margin: 0 0 1.5rem 7rem;
+  margin: 0 0 1.5rem 0;
 }
 .star{
   font-family: 'Nunito';
@@ -121,7 +121,7 @@ li::marker{
   line-height: 2.6rem;
   letter-spacing: normal;
   color: var(--white);
-  margin-left: 7rem;
+  /* margin-left: 7rem; */
 }
 ._stars{
   padding-left: 2rem;
@@ -130,7 +130,7 @@ li::marker{
 .rec{
   width: 163px;
   height: 36px;
-  margin:2rem 0 0 7rem;
+  margin:2rem 0 0 0;
   border: 1px  white;
   border-radius: 2px;
   /* opacity: 10%; */
@@ -146,35 +146,26 @@ li::marker{
   text-align: center;
   color: var(--white); 
 }
-.prev{
-font-weight: bold;
-}
-.banner-video{
-  margin-bottom: 25px;
-  width: 235px;
-  height: 235px;
-}
+
+
 .banner-video:hover{
   transform: scale(1.5);
 }
 .carsous{
   margin-top: 460px;
+  padding: 0 7rem;
   
 }
 .btnrhs{
   width: 0%;
-  left: 140px;
+  left: 80px;
 }
 .btnlhs{
   width: 0%;
-  left: 70px;
+  left: 20px;
 }
-.arrow-lhs{
-  margin:130px 15px 0 0;
-}
-.arrow-rhs{
-margin: 130px 0 0 0;
-}
+
+
 .card{
   border-radius: 10px;
   /* width: 226px; */
@@ -202,6 +193,7 @@ margin: 130px 0 0 0;
 }
 .nrmlpills{
   color: #3a5edd ;
+  padding: 0 7rem;
   background-color: #ffffff;
 }
 
@@ -271,6 +263,9 @@ hr{
   letter-spacing: normal;
   color: #383e69;
 }
+.roundedpill{
+  padding: 0 7rem;
+}
 .roundedpill .nav-item .nav-link{
   background-color: #f0f5f9;
 }
@@ -278,6 +273,10 @@ hr{
   background-color: #0d6efd;
   color: #ffffff;
 }
+.overviewimg{
+  padding: 0 7rem;
+}
+
 .button1{
   width: 172px;
   height: 32px;
@@ -287,7 +286,7 @@ hr{
   line-height: 2.6rem;
   letter-spacing: normal;
   text-align: center;
-  margin-right: 60px;
+  
   color: #383e69;
 }
 .button2{
@@ -299,7 +298,7 @@ hr{
   line-height: 2.6rem;
   letter-spacing: normal;
   text-align: center;
-  margin-right: 60px;
+ 
   color: #383e69; 
 }
 .button3{
@@ -318,11 +317,13 @@ hr{
   color: #383e69;
   letter-spacing: normal;
 }
+.skillsec{
+  padding: 0 7rem;
+}
 .skills{
-  margin-left: 70px;
   margin-top: 100px;
   background-color: #30abd6;
-  width: 90%;
+  width: 100%;
   height: auto;
   border: 1px solid white;
   border-radius: 10px;
@@ -342,6 +343,10 @@ hr{
   height: 31px;
   border: 1px solid white;
   margin:0 20px 25px 0;
+}
+.toolsec{
+  margin-top: 100px;
+  padding: 0 7rem;
 }
 .Tags {
   font-family: 'Nunito';
@@ -381,7 +386,7 @@ hr{
  
   width: 208px;
   height: 140px;
-  margin-right: 25px;
+  /* margin-right: 25px; */
 }
 .caimg{
   width: 200px;
@@ -390,7 +395,12 @@ hr{
 
 .benefits{
   margin-top: 100px;
+  padding: 6rem 7rem;
   background-color: #f0f5f9;
+}
+.pricecon{
+  padding-left: 168px;
+  padding-right: 168px;
 }
 .data{
   font-family: 'Nunito';
@@ -408,11 +418,14 @@ hr{
   line-height: 3rem;
   letter-spacing: normal;
   color: #1f2343;
- margin-bottom: 11px;
+  margin-bottom: 11px;
+}
+.graph{
+  padding-left: 7rem;
 }
 .hiring{
   margin: 100px 0 0 0;
-
+  padding: 0 7rem;
 }
 .hiringrec{
   width: 303px;
@@ -421,14 +434,15 @@ hr{
   background-color: #f0f5f9;
   margin-top: 75px;
 }
-.brand{
-  margin-top:30px
-}
 .tony{
   font-family: 'Nunito';
   font-weight: bold;
   font-size: 2.4rem;
   line-height: 3.4rem;
+}
+.partnersec{
+  margin-top: 100px;
+  padding: 0 7rem;
 }
 .partnercarind{
   top: 180px;
@@ -437,16 +451,16 @@ hr{
   /* width: 6%; */
 }
 .prevs{
-  width: 0%;
-  top: 110px;
-  right: 0px;
-  left: 600px;
+    width: 0%;
+    top: 195px;
+    right: 0px;
+    left: 530px;
 
 }
 .nexts{
   width: 0%;
-  top: 110px;
-left: 740px;
+  top: 195px;
+left: 670px;
 }
 
 
@@ -504,3 +518,14 @@ height: 576px;
     margin-top: 915px;
   }
 }
+
+@media (min-width: 0px) and (max-width: 319px) {
+   .bgimg{
+     width: 100%;
+     height: 370%;
+  }
+  .carsous{
+    margin-top: 915px;
+  }
+}
+
